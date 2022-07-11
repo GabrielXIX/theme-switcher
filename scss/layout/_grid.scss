@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    
+    max-width: 80vw;
+    margin: auto;
+
+    &--small-gap {
+        grid-row-gap: 1rem;
+    }
+
+    @include media-xl {
+        max-width: 70vw;
+    }
+
+    @include media-mdl {
+        max-width: 90vw;
+    }
+
+    @include media-mdm {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include media-sm {
+
+        grid-template-columns: 1fr;
+    }
+}

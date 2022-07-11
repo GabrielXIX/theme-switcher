@@ -1,0 +1,43 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: var(--primary-text-color);
+}
+
+h4, h5, h6, p {
+
+    color: var(--secundary-text-color);
+}
+
+.main-numbers {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+.followers {
+    letter-spacing: .4rem;
+}
+
+.secundary-numbers {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+
+h1 {
+
+    font-size: 32px;
+
+    @include media-mds {
+        font-size: 1.6rem;
+    }
+
+    @include media-sm {
+        font-size: 32px;
+    }
+
+    @include media-sms {
+        font-size: 24px;
+    }
+}

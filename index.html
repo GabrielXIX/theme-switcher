@@ -5,77 +5,272 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <title>Frontend Mentor | Social Media Dashboard Theme Switcher</title>
 </head>
-<body>
+<body class="dark-theme" data-theme>
 
-  Social Media Dashboard
-  Total Followers: 23,004
+  <header class="block">
 
-  Dark Mode
+    <div class="flex-container flex-container--base flex-container--between flex-container--no-gap">
 
+      <div class="flex-container flex-container--left flex-container--column flex-container--border">
+        <h1>Social Media Dashboard</h1>
+        <h4>Total Followers: 23,004</h4>
+      </div>
+
+      <div class="flex-container flex-container--stretch">
+
+        <h4>Dark Mode</h4>
+
+        <label class="toggle">
+          <input type="checkbox" data-toggle>
+          <span class="toggle__slider"></span>
+        </label>
+
+      </div>
+
+    </div>  
+  </header>
+
+  <main>
+    <div class="header-overflow"></div>
+
+    <section class="block block--main">
+
+      <div class="grid-container">
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--highlighted">
+
+          <div class="card-highlight card-highlight--fb"></div>
+
+          <div class="flex-container flex-container--socials">
+            <img src="./img/icon-facebook.svg" alt="icon-facebook">
+            <h5>@nathanf</h5>
+          </div> 
+
+          <p class="main-numbers">1987</p>
+
+          <p class="followers">FOLLOWERS</p>
+
+          <div class="flex-container flex-container--gain">
+            <img src="./img/icon-up.svg" alt="icon-up">
+            <p>12 Today</p>
+          </div>
+
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--highlighted">
+
+          <div class="card-highlight card-highlight--tw"></div>
+
+          <div class="flex-container flex-container--socials">
+            <img src="./img/icon-twitter.svg" alt="icon-facebook">
+            <h5>@nathanf</h5>
+          </div> 
+
+          <p class="main-numbers">1044</p>
+
+          <p class="followers">FOLLOWERS</p>
+
+          <div class="flex-container flex-container--gain">
+            <img src="./img/icon-up.svg" alt="icon-up">
+            <p>99 Today</p>
+          </div>
+
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--highlighted">
+
+          <div class="card-highlight card-highlight--ig"></div>
+
+          <div class="flex-container flex-container--socials">
+            <img src="./img/icon-instagram.svg" alt="icon-facebook">
+            <h5>@realnathanf</h5>
+          </div> 
+
+          <p class="main-numbers">11k</p>
+
+          <p class="followers">FOLLOWERS</p>
+
+          <div class="flex-container flex-container--gain">
+            <img src="./img/icon-up.svg" alt="icon-up">
+            <p>1099 Today</p>
+          </div>
+
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--highlighted">
+
+          <div class="card-highlight card-highlight--yt"></div>
+
+          <div class="flex-container flex-container--socials">
+            <img src="./img/icon-youtube.svg" alt="icon-facebook">
+            <h5>Nathan F.</h5>
+          </div> 
+
+          <p class="main-numbers">8239</p>
+
+          <p class="followers">SUBSCRIBERS</p>
+
+          <div class="flex-container flex-container--lose">
+            <img src="./img/icon-down.svg" alt="icon-down">
+            <p>144 Today</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section> 
+    
+    <section class="block block--main">
+
+      <h2 class="subheading">Overview - Today</h2>
+
+      <div class="grid-container grid-container--small-gap">
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--card-small">
+
+          <div class="flex-container flex-container--between">
+            <h4>Page Views</h4>
+            <img src="./img/icon-facebook.svg" alt="icon-facebook">
+          </div>
+
+          <div class="flex-container flex-container--between">
+            <p class="secundary-numbers">87</p>
+            <div class="flex-container flex-container--gain">
+              <img src="./img/icon-up.svg" alt="icon-up">
+              <p>3%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--card-small">
+
+          <div class="flex-container flex-container--between">
+            <h4>Likes</h4>
+            <img src="./img/icon-facebook.svg" alt="icon-facebook">
+          </div>
+
+          <div class="flex-container flex-container--between">
+            <p class="secundary-numbers">52</p>
+            <div class="flex-container flex-container--lose">
+              <img src="./img/icon-down.svg" alt="icon-down">
+              <p>2%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--card-small">
+
+          <div class="flex-container flex-container--between">
+            <h4>Likes</h4>
+            <img src="./img/icon-instagram.svg" alt="icon-instagram">
+          </div>
+
+          <div class="flex-container flex-container--between">
+            <p class="secundary-numbers">5462</p>
+            <div class="flex-container flex-container--gain">
+              <img src="./img/icon-up.svg" alt="icon-up">
+              <p>2257%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--card-small">
+
+          <div class="flex-container flex-container--between">
+            <h4>Profile Views</h4>
+            <img src="./img/icon-instagram.svg" alt="icon-instagram">
+          </div>
+
+          <div class="flex-container flex-container--between">
+            <p class="secundary-numbers">52k</p>
+            <div class="flex-container flex-container--gain">
+              <img src="./img/icon-up.svg" alt="icon-up">
+              <p>1375%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--card-small">
+
+          <div class="flex-container flex-container--between">
+            <h4>Retweets</h4>
+            <img src="./img/icon-twitter.svg" alt="icon-twitter">
+          </div>
+
+          <div class="flex-container flex-container--between">
+            <p class="secundary-numbers">117</p>
+            <div class="flex-container flex-container--gain">
+              <img src="./img/icon-up.svg" alt="icon-up">
+              <p>303%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--card-small">
+
+          <div class="flex-container flex-container--between">
+            <h4>Likes</h4>
+            <img src="./img/icon-twitter.svg" alt="icon-twitter">
+          </div>
+
+          <div class="flex-container flex-container--between">
+            <p class="secundary-numbers">507</p>
+            <div class="flex-container flex-container--gain">
+              <img src="./img/icon-up.svg" alt="icon-up">
+              <p>553%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--card-small">
+
+          <div class="flex-container flex-container--between">
+            <h4>Likes</h4>
+            <img src="./img/icon-youtube.svg" alt="icon-youtube">
+          </div>
+
+          <div class="flex-container flex-container--between">
+            <p class="secundary-numbers">107</p>
+            <div class="flex-container flex-container--lose">
+              <img src="./img/icon-down.svg" alt="icon-down">
+              <p>19%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-container flex-container--column flex-container--card flex-container--card-small">
+
+          <div class="flex-container flex-container--between">
+            <h4>Total Views</h4>
+            <img src="./img/icon-youtube.svg" alt="icon-youtube">
+          </div>
+
+          <div class="flex-container flex-container--between">
+            <p class="secundary-numbers">1407</p>
+            <div class="flex-container flex-container--lose">
+              <img src="./img/icon-down.svg" alt="icon-down">
+              <p>12%</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
   
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://www.frontendmentor.io/profile/GabrielXIX">Gabriel Dueñas</a>.
+  </footer>
+
 </body>
 </html>

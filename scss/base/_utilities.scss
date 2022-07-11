@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+main {
+    position: relative;
+}
+
+.subheading {
+    margin: 0 auto 1rem auto;
+    max-width: 80vw;
+
+    cursor: default;
+    
+    @include media-xl {
+        max-width: 70vw;
+    }
+
+    @include media-mdl {
+        max-width: 90vw;
+    }
+
+}

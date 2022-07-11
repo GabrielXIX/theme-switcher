@@ -1,0 +1,25 @@
+.card-highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    height: .3rem;
+
+    &--fb {
+        background-color: var(--facebook);
+    }
+
+    &--tw {
+        background-color: var(--twitter);
+    }
+
+    &--ig {
+        background-image: var(--instagram);
+    }
+
+    &--yt {
+        background-color: var(--youtube);
+    }
+}

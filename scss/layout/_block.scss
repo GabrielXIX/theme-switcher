@@ -1,0 +1,22 @@
+.block {
+    width: 100%;
+    padding: 2rem 2rem 0 2rem;
+    background-color: var(--bg-top-color);
+
+    &--main {
+        background-color: var(--primary-color);
+    }
+}
+
+.header-overflow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 10rem;
+    background-color: var(--bg-top-color);
+
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
