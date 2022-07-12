@@ -14,9 +14,6 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,83 +27,43 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![image](https://user-images.githubusercontent.com/65438145/178389349-2457688e-7fbe-4936-8d91-1d31daea552f.png)
+![image](https://user-images.githubusercontent.com/65438145/178389369-7f8cca40-a84f-48db-9849-6027d9d8a001.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/theme-switcher-with-javascript-and-sassscss-ll20F_YNob
+- Live Site URL: https://theme-switcher-30u4hvs1l-gabrielxix.vercel.app
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- CSS custom properties, flex and grid
+- CSS media queries
+- Desktop-first workflow
+- Sass (scss)
+- Basic JavaScript
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Before starting on this component I first learned the basics of Sass and the importance to define a file structure for the partials you'll be using. Then, when working on the component itself I researched on various methods to build the theme switcher and decided to go for the way in which CSS cutom properties and event listeners on JavaScript are used since I couldn't figure out a way to do it with just Sass variables and maps. I also learned how to target the local storage of the browser so that the theme chosen stays even after closing and reopening the website.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+For continuing forward I will focus on improving the way I define CSS classes using BEM and study JavaScript event listeners to understand how an event is triggered and if one can determine the ocurrence of a user-triggered event versus a code-triggered event. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- https://www.youtube.com/watch?v=_a5j7KoflTs - Sass Crash Course
+- https://sass-lang.com/documentation/values/maps - Sass Documentation
+- https://www.w3schools.com/sass/sass_functions_map.asp - Sass Documentation
+- https://www.w3schools.com/howto/howto_css_switch.asp - Toggle Component Example
+- https://www.youtube.com/watch?v=XF1_MlZ5l6M - Event Listeners Basics
+- https://medium.com/swlh/dark-mode-using-css-variables-cf065a7fa133 - Theme Switcher Example 1
+- https://medium.com/@haxzie/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript-zocada-dd0059d72fa2 - Theme Switcher Example 2
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@GabrielXIX]https://www.frontendmentor.io/profile/GabrielXIX
